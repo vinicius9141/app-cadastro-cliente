@@ -1,0 +1,85 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.backgroud-login{
+    background-image: url('../../../assets/img/breathtaking-shot-crescent-moon-middle-blue-sky-with-silhouettes-trees.jpg');
+    background-size: 100%;
+}
+.content-login{
+    display: flex;
+    flex-direction: column;
+}
+.box-login{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border-radius: 5px;
+    margin-bottom: 208px;
+    width: 253px;
+    height: 455px;
+    /* border: solid black 1px; */
+    background-color: #333333c7;
+    /* filter: blur(0px); */
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.45); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.45);
+}
+.img-login{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background-color: #b8b6b6;
+    border-radius: 50%;
+    margin-top: 87px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box-login-input-user{
+    display: flex;
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b8b6b6be;
+    text-decoration: none;
+    outline: none;
+    font-size: 18pt;
+}
+
+.box-login-input-password{
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: #333333;
+    background-color: #b8b6b6be;
+    font-size: 18pt;
+}
+::-webkit-input-placeholder {
+    color: #333333;
+    margin-right: 15%;
+ }
+.btn-login{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3ec7c3;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    color: #333333;
+    font-size: 18pt;
+    font-weight: 700;
+    font-size: 18pt;
+    border: none;
+    text-decoration: none;
+    align-items: center;
+    align-self: center;
+    content: 'Login';
+}
